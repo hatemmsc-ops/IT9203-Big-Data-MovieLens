@@ -1,0 +1,46 @@
+IT9203 Big Data Tools and Techniques - Individual Project
+Top-Rated Movies per Genre Tracker
+Hatem Isa | 202508993
+
+DATASET SOURCE
+==============
+
+Name:      MovieLens 25M Dataset
+Provider:  GroupLens Research, University of Minnesota
+Released:  December 2019
+Download:  https://grouplens.org/datasets/movielens/25m/
+Direct:    https://files.grouplens.org/datasets/movielens/ml-25m.zip
+
+The dataset files are not included in this submission. As stated in the
+project brief, no real data collection is required and a sample dataset
+from a public Big Data repository is sufficient. The dataset is public and
+can be downloaded from the links above.
+
+FILES USED
+==========
+
+ratings.csv   25,000,095 ratings   (userId, movieId, rating, timestamp)
+movies.csv    62,423 movies        (movieId, title, genres)
+
+Other files in the ml-25m package (tags.csv, links.csv, genome-scores.csv,
+genome-tags.csv) were not used in this project.
+
+DATASET FACTS
+=============
+
+Total ratings:   25,000,095
+Movies:          62,423
+Users:           162,541
+Genres:          20
+Rating scale:    0.5 to 5.0
+Average rating:  3.53
+
+CITATION (APA)
+==============
+
+Harper, F. M., & Konstan, J. A. (2015). The MovieLens datasets: History and
+context. ACM Transactions on Interactive Intelligent Systems, 5(4),
+Article 19, 1 to 19. https://doi.org/10.1145/2827872
+
+GroupLens Research. (2019). MovieLens 25M dataset. University of Minnesota.
+https://grouplens.org/datasets/movielens/25m/
